@@ -1,6 +1,5 @@
 <?php
 
-
 require_once __DIR__ . '/vendor/autoload.php';
 
 $googleAccountKeyFilePath = __DIR__ . '/sheets-367211-e4d91f770bf4.json';

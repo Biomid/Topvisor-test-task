@@ -8,7 +8,6 @@ $client = new Google_Client();
 $client->useApplicationDefaultCredentials();
 $client->addScope('https://www.googleapis.com/auth/spreadsheets');
 
-
 function updateValues($spreadsheetId, $range, $valueInputOption,$client)
 {
 
