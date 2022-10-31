@@ -1,0 +1,15 @@
+{
+  "require": {
+    "google/apiclient": "^2.12.1",
+    "asimlqt/php-google-spreadsheet-client": "^3.0"
+  },
+  "scripts": {
+    "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+  },
+  "extra": {
+    "google/apiclient-services": [
+      "Sheets",
+      "Drive"
+    ]
+  }
+}
